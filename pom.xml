@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.springcommerce.events</groupId>
-    <artifactId>kafka-events</artifactId>
+    <artifactId>springcommerce-kafka-events</artifactId>
     <version>0.0.1</version>
 
     <properties>
