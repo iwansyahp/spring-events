@@ -1,10 +1,10 @@
 package com.springcommerce.events.payload;
 
-public class KafkaPayload<T> {
+public class KafkaPayload<V> {
 	private String key;
-	private T data;
+	private V data;
 
-	public KafkaPayload(String key, T data) {
+	public KafkaPayload(String key, V data) {
 		this.key = key;
 		this.data = data;
 	}
@@ -14,10 +14,10 @@ public class KafkaPayload<T> {
 	public void setKey(String key) {
 		this.key = key;
 	}
-	public T getData() {
+	public V getData() {
 		return data;
 	}
-	public void setData(T data) {
+	public void setData(V data) {
 		this.data = data;
 	}
 
